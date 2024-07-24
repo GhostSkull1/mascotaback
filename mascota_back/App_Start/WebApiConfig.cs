@@ -10,7 +10,7 @@ namespace mascota_back
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configuración y servicios de Web API
+
             var cors = new EnableCorsAttribute("*", "*", "*");
             config.EnableCors();
             // Rutas de Web API
